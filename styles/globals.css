@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: local('Helvetica'),
+       url('../public/fonts/Helvetica-Regular.ttf') format('truetype'),
+       url('../public/fonts/Helvetica-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../public/fonts/Helvetica-Regular.woff') format('woff'); 
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: local('Calibri'),
+       url('../public/fonts/Calibri-Bold.ttf') format('truetype'),
+       url('../public/fonts/Calibri-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../public/fonts/Calibri-Bold.woff') format('woff'); 
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 html,
 body {
   padding: 0;
@@ -15,12 +36,4 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
+
